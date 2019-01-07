@@ -1,1 +1,1 @@
-TOKEN = "MzkzNDkxMDQxMzc2MDEwMjQw.Dwm__Q.R5WhcEkJ6Me-UIQnLcCgb6U-QVg";
+TOKEN = "";
