@@ -1,6 +1,5 @@
-from random import *;
 from discord.ext import commands;
-from discord import Member;
+#from discord import Member;
 import constants;
 
 class Moderation_Commands:
@@ -9,8 +8,8 @@ class Moderation_Commands:
 
     @commands.command(pass_context=True)
     @commands.has_any_role(constants.ROLE_ADMIN, constants.ROLE_MOD)
-    async def ban(self, ctx, member: Member):
-        await self.bot.ban(member);
+    async def ban(self, ctx, member):
+        await self.bot.guild.ban(member);
 
 
 
